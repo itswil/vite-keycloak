@@ -51,6 +51,25 @@ http://localhost:5173
 
 The port `5173` refers to the default port Vite uses
 
+## End User (not Admin) Login URL
+
+[localhost:8080/admin/wld/console/](http://localhost:8080/admin/wld/console/)
+
+### How do I find this?
+
+#### Log in to Master Realm
+
+- Go to [localhost:8080](http://localhost:8080/)
+- Click Admin Console
+- Login (U: admin, P: admin)
+
+#### Switch to your Realm
+
+- Click the dowpdown with `master`
+- Click Clients (sidebar)
+- Click `security-admin-console` in Clients List
+- Add Home URL to `localhost:8080` (or [localhost:8080/admin/wld/console/](http://localhost:8080/admin/wld/console/))
+
 ## Example Keycloak instance
 
 ```
